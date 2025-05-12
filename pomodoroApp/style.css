@@ -1,0 +1,104 @@
+html {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.25em;
+  letter-spacing: 0.05em;
+  min-height: 100vh;
+  color: #d8e9ef;
+  background-image: linear-gradient(-20deg, #3e0391 0%, #b970a2 100%);
+  background-size: cover;
+}
+
+h1 {
+  margin: 0 auto 0.625em auto;
+  color: #d8e9ef;
+}
+
+p {
+  margin: 0;
+}
+
+.app-message {
+  height: 1.25em;
+  margin: 0.625em auto 1.25em auto;
+}
+
+.app-container {
+  width: 37.5em;
+  height: 26.25em;
+  margin: 2.5em auto;
+  text-align: center;
+  border-radius: 0.313em;
+  padding: 1.25em;
+}
+
+.app-circle {
+  position: relative;
+  margin: 0 auto;
+  width: 18.75em;
+  height: 18.75em;
+}
+
+.circle-shape {
+  pointer-events: none;
+}
+
+.semi-circle {
+  position: absolute;
+  width: 9.375em;
+  height: 18.75em;
+  box-sizing: border-box;
+  border: solid 0.375em;
+}
+
+.left-side {
+  top: 0;
+  left: 0;
+  transform-origin: right center;
+  transform: rotate(0deg);
+  border-top-left-radius: 9.375em;
+  border-bottom-left-radius: 9.375em;
+  border-right: none;
+  z-index: 1;
+}
+
+ .right-side {
+  top: 0;
+  left: 9.375em;
+  transform-origin: left center;
+  transform: rotate(0deg);
+  border-top-right-radius: 9.375em;
+  border-bottom-right-radius: 9.375em;
+  border-left: none;
+}
+
+.circle {
+  border-color: #a41147;
+}
+
+.circle-mask {
+  border-color: #e65ae8;
+}
+
+.app-counter-box {
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 250%;
+  position: relative;
+  top: 3.125em;
+  color: #d8e9ef;
+}
+
+button {
+  position: relative;
+  top: 3.125em;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.063em;
+  border: none;
+  background: none;
+  outline: none;
+  color: #d8e9ef;
+}
+
+button:hover {
+  color: #90c0d1;
+}
